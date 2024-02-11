@@ -1,10 +1,11 @@
 '''
-### Pan Zoom Helper ###
-This script allow users to easily manipulate maya's pan/zoom.
-You need to set the camera you want to work with
-You can either setup a production camera in the SHOTCAM variable or by
-setting it when calling the script (see Pipeline integration below)
-so the tool will automatically set it if found in the scene.
+Pan Zoom Helper
+
+This script facilitates users in manipulating Maya's pan and zoom
+functionalities. You must specify the camera you intend to use. You can either
+set a production camera in the SHOTCAM variable or specify it when calling
+the script (refer to Pipeline integration below). In doing so, the tool
+will automatically configure it if it's present in the scene.
 
 Tested maya 2020, 2022
 
