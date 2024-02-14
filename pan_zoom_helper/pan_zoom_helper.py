@@ -208,6 +208,7 @@ class PanZoomHelper(QMainWindow):
         self.zoom_step_spinbox = QDoubleSpinBox()
         self.zoom_step_spinbox.setMaximum(100)
         self.zoom_step_spinbox.setMinimum(0)
+        self.zoom_step_spinbox.setSingleStep(0.01)
 
         self.layout_user_zoom_step.addWidget(zoom_step_label, 1)
         self.layout_user_zoom_step.addWidget(self.zoom_step_spinbox)
@@ -222,6 +223,7 @@ class PanZoomHelper(QMainWindow):
         self.move_step_spinbox = QDoubleSpinBox()
         self.move_step_spinbox.setMaximum(100)
         self.move_step_spinbox.setMinimum(0)
+        self.move_step_spinbox.setSingleStep(0.01)
 
         self.layout_user_move_step.addWidget(move_step_label, 1)
         self.layout_user_move_step.addWidget(self.move_step_spinbox)
