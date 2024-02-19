@@ -29,5 +29,5 @@ from pan_zoom_helper import pan_zoom_helper;
 window = pan_zoom_helper.PanZoomHelper(shotcam='your_shotcam_shape_name');
 window.show();
 ```
-Make sure to replace the 'your_shotcam_shape_name' with youre camera
+Make sure to replace the 'your_shotcam_shape_name' with your camera
 shape name
