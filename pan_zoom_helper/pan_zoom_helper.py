@@ -13,7 +13,7 @@ Tested maya 2020, 2022
 ## On the go:
 Copy/Paste this whole page of code in maya python console and run.
 
-As simple shelf button:
+## As simple shelf button:
 Copy this script into your maya/scripts folder.
 Create a shelf button with these lines in python:
 
